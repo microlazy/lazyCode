@@ -1,0 +1,27 @@
+{
+	"name": "lazyCode",
+	"displayName": "lazyCode",
+	"description": "Microlazy's Personal Dark Blue Dark Theme Series",
+	"version": "0.0.1",
+	"publisher": "microLazy",
+	"engines": {
+		"vscode": "^1.25.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "lazyCode",
+				"uiTheme": "vs-dark",
+				"path": "./themes/lazyCode-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "db1d1509-6bcb-43c7-961f-123690b2f55d",
+		"publisherDisplayName": "microLazy",
+		"publisherId": "e0f91c9e-2e33-444e-90bb-d829194fa000"
+	}
+}

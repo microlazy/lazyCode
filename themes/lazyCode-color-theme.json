@@ -1,0 +1,151 @@
+{
+	"name": "lazyCode",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#141F2E",
+		"editor.foreground": "#D0D0D0",
+		"tab.activeBackground": "#141F2E",
+		"tab.inactiveBackground": "#0A101D",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#bbbbbb",
+		// 当前光标所在行背景色
+		"editor.lineHighlightBackground": "#406186bb",
+		// 行号颜色
+		"editorLineNumber.foreground": "#cccccc",
+		// 对应标签
+		"editorBracketMatch.background": "#4f6d93",
+		"editorBracketMatch.border": "#4f6d93",
+		"editor.selectionForeground": "#ffffff",
+		"editor.selectionBackground": "#4c74a8"
+	},
+	"tokenColors": [
+		{
+			"name": "default colors",
+			"scope": [
+				"variable.other.class",
+				"variable.other.property"
+			],
+			"settings": {
+				"foreground": "#D0D0D0"
+			}
+		},
+		// 注释
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"keyword.other.phpdoc.php",
+				"keyword.other.type.php",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#75715E"
+			}
+		},
+		//字符串
+		{
+			"name": "String",
+			"scope":[
+				"string",
+				"constant.css"
+			],
+			"settings": {
+				"foreground": "#E6DB74"
+			}
+		},
+		//数字 布尔 null
+		{
+			"name": "Number Boolean NULL",
+			"scope":[
+				"constant.numeric",
+				"constant.language",
+				"constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#AE81FF"
+			}
+		},
+		//常量
+		{
+			"name": "Constant",
+			"scope": [
+				"constant"
+			],
+			"settings": {
+				"foreground": "#A41DFF",
+				"fontStyle": "bold"
+			}
+		},
+		//自定义常量
+		{
+			"name": "constant.other",
+			"scope": [
+				"constant.other"
+			],
+			"settings": {
+				"foreground": "#FCC95A"
+			}
+		},
+		//变量
+		{
+			"name": "Variables",
+			"scope": [
+				"variable.other",
+				"constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "#37C6C0"
+			}
+		},
+		//关键函数
+		{
+			"name": "Keywords",
+			"scope":[
+				"keyword",
+				"storage.type",
+				"storage.modifier",
+				//"keyword.operator.logical",
+				"variable.language",
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#0099FF",
+				"fontStyle": "bold"
+			}
+		},
+		//函数方法名称
+		{
+			"name": "Function name",
+			"scope": [
+				"entity.name.type",
+				"entity.other.inherited-class",
+				"entity.name.function",
+				"support.function.magic",
+				"meta.property-name.css",
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#A6E22E"
+				//"fontStyle": "bold"
+			}
+		},
+		//运算符
+		{
+			"name": "Operator",
+			"scope": [
+				"keyword.operator",
+				"entity.other.attribute-name.class.css",
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php",
+				"entity.name.tag",
+				"entity.other.attribute-name.id.css"
+			],
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+
+
+		
+	]
+}
